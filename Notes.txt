@@ -1,0 +1,38 @@
+##############################################
+Python Notes
+##############################################
+
+Python is versatile language and powerfull high-level language
+The Basic Syntax for automatic compiling is 
+            !# usr/bin/env python
+It automatically provide the path to compiler the script is executed automatically.
+
+Strings can also be considered as an array in python.
+
+eg: 
+
+word = 'abc'
+output
+    word[0] = a
+
+new_word = 'd' +  word[1:] #It specifies the range.
+output:
+    dbc
+
+Unicode can be used as a new method/way for storing the text data. It provides the
+way for providing the internationalization of the product/software/web etc.
+
+Most important point:
+    ----> Strings are the immutable objects i.e Strings values cannot be changed.
+
+List v/s Tuples
+    Tuples are fixed in size i.e is immutable and list is mutable i.e dynamic.
+    Values in the tuple cannot be removed nor added it do not have add(), append(),
+    pop(), remove() method.
+    
+    To find the elements in tuple u can in operator to check if an element exists.
+    Tuples can be used as an dictionary. List cannot be used as Dictionary.
+          
+Fundatmental Difference between the List and Tuple is:
+    List->Homoegenious in Nature i.e they maintain order.
+    Tuple -> Heterogeneous in Nature i.e they maintain structure.
