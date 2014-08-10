@@ -1,0 +1,21 @@
+#########################################################
+VIM COMMANDS
+#########################################################
+
+1. Delete a single letter== ':dl'
+2. Undo  == ':u'
+3. Redo  == 'ctrl+r'
+4. Open file in new tab ==
+    1->:tabnew
+    2->:e filename
+5. Switch between the tabs == gt
+6. Swich the tabs in terminal:
+    Ctrl+Shift+Page Up /
+    Ctrl+Shift+Page down/
+    Alt+n n=Tab number
+    Ctrl+PageUp/Page Down
+    
+7. Close the tabs in terminal 
+    Ctrl+Shift+W
+8.
+

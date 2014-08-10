@@ -36,3 +36,14 @@ List v/s Tuples
 Fundatmental Difference between the List and Tuple is:
     List->Homoegenious in Nature i.e they maintain order.
     Tuple -> Heterogeneous in Nature i.e they maintain structure.
+
+List internals
+    It acts as a sequence 
+    
+
+    Basic syntax for list is 
+    list[1,2,3,4,5]
+
+    For slicing we use the following syntax
+
+    list[1:3]
