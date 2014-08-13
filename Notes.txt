@@ -2,6 +2,11 @@
 Python Notes
 ##############################################
 
+#####################################
+MAIN AIM OF PYTHON LANGUAGE IS THE CODE IS MORE READ RATHER THAN WRITTEN.
+MAKE THE CODE MORE READABLE
+####################################
+
 Python is versatile language and powerfull high-level language
 The Basic Syntax for automatic compiling is 
             !# usr/bin/env python
@@ -47,3 +52,37 @@ List internals
     For slicing we use the following syntax
 
     list[1:3]
+
+Range Function:
+    Can be used to Iterate over the sequence of number. But if we want to interate 
+    over more than one variable or even if we don't the enumerate method is the most
+    convinient way to iterate over the loop.
+
+##########
+IMPORTANT
+##########
+
+for - else statement:
+    Its similar to go-to statements in C/C++. The else loop will be executed only
+and only if the iterable i.e for/while loop has completely executed. Generally it
+is used for finding the searchable item. If the desired key is found in iterable 
+function we can use break statemet for that. While iterating if we break the itera
+-ble loop the else statement is not gonna be executed.
+
+Generally the syntax is read as.
+FIND SOME ITEMS IN ITERABLE , ELSE IF NONE WAS FOUND DO SOMTHING ..
+Useful Links for the discussion:
+#######
+ http://stackoverflow.com/questions/9979970/why-does-python-use-else-after-for-and-while-loops
+#######
+This syntax can be used for while, try statements.
+
+Excellent Issue has been raised here at following link:
+#############
+https://mail.python.org/pipermail/python-ideas/2009-October/006155.html
+############
+
+Continue statement is similar to the continue used in C.
+It generaly tends to improve the readability of the code. It reduces the level of
+indentation required may be in if not <condition>.
+

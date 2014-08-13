@@ -1,0 +1,35 @@
+###################################################################################
+WHAT IS *args AND **kwargs
+###################################################################################
+
+It is not neccessary to write *args and **kwargs not a joke the most important 
+consideration is (*) asterik sign. 
+args = Non -keyword arguments/Normal Arguments
+kwargs = Keyword Argument
+
+Its generally  usefull when we r not sure/about to pass the values more than the 
+explicitly stated. We use the above style.
+
+There can be twp types for the above argumnts i.e positional and Keyword arguments.
+*positional/*args will store all the parameters with no limit
+
+eg:
+    def foo(*args,**kwargs):
+        print 'positional',args
+        print 'keyword arguements',kwargs
+    foo(1, 2, 'Akshay')
+
+    OUTPUT:
+        positional:(1, 2, 'Akshay')
+
+    foo(a='two', c=' three')
+    OUTPUT
+        keyword arguments :{a: two, c: three}
+We can pass the **args and **kwargs combinely and this is the most used method by 
+developers.
+
+Keyword arguments acts as dictionary.
+These features are rarely used but they are usefull.Especially in django framework
+when defining the function in forms.py or templatetags.py they are used extensively.
+
+
