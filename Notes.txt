@@ -86,3 +86,25 @@ Continue statement is similar to the continue used in C.
 It generaly tends to improve the readability of the code. It reduces the level of
 indentation required may be in if not <condition>.
 
+Details on List Command
+
+insert(i,x)
+    i = Position     x = item
+append(x)
+    insert item at the end of list.
+
+remove(x)
+    remove the first item 'x' from the list.
+
+index(x)
+    returns the position of item 'x' in the list.
+
+count(x)
+    Returns the no of times the elements has occured in the list.
+
+reverse()
+    reverse the elements in list.
+ sort(cmp=None, key=None, reverse =false)
+
+    insert(),remove(),sort() do not return any value they always return NONE. Its a 
+design principle for all mutable data structures.
