@@ -1,5 +1,8 @@
 #! usr/bin/env python
 
+def f(x): return x % 2 != 0 and x % 3 != 0
+
+def cube(x): return x * x * x
 def main():
     a = [20, 21,  55, 80]
 
@@ -24,5 +27,14 @@ def main():
 
     a.sort()
     print 'Sorting Command' ,a
+
+    filter_func1 = filter(f, a)
+    print filter_func1
+
+    print 'Using Filter function for range 1 - 20 ', filter(f, range(1, 20))
+
+    print 'Using Filter function for range 1 - 20 ', map(cube, range(1, 20))
+
+
 if __name__ == '__main__':
     main()

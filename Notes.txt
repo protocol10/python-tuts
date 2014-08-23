@@ -108,3 +108,9 @@ reverse()
 
     insert(),remove(),sort() do not return any value they always return NONE. Its a 
 design principle for all mutable data structures.
+
+List contains three built in functions that are very use full for functional 
+programming.
+    1-> filter(item, sequence)
+    2-> map(item, sequence)
+    3-> reduce()
