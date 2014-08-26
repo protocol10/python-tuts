@@ -3,6 +3,9 @@
 def f(x): return x % 2 != 0 and x % 3 != 0
 
 def cube(x): return x * x * x
+
+def add(x, y): return x+y
+
 def main():
     a = [20, 21,  55, 80]
 
@@ -35,6 +38,22 @@ def main():
 
     print 'Using Filter function for range 1 - 20 ', map(cube, range(1, 20))
 
+    sequence = range(1, 20)
+    print 'Using Filter function for range 1 - 20 ', map(add, sequence, sequence)
 
+    print "LIST COMPREHENSION"
+    squares = [ x**2 for x in range(1,10)]
+    print squares
+
+    print "NESTED LIST COMPREHENSION"
+    row = [(x**2, y**2) for x in [1, 4, 5] for y in [3, 5, 6] if x != y]
+    print row
+
+    vec = [1, 2, -1, -4, 5, -7, 7]
+    print 'Vec list',vec
+
+    print 'Elemenating Negative numbers'
+    vec_list = [x for x in vec if x>=0]
+    print vec_list
 if __name__ == '__main__':
     main()
