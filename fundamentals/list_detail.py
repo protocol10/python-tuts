@@ -49,11 +49,27 @@ def main():
     row = [(x**2, y**2) for x in [1, 4, 5] for y in [3, 5, 6] if x != y]
     print row
 
-    vec = [1, 2, -1, -4, 5, -7, 7]
+    vec = [6, 9, 1, 2, -1, -4, 5, -7, 7]
     print 'Vec list',vec
 
     print 'Elemenating Negative numbers'
     vec_list = [x for x in vec if x>=0]
     print vec_list
+
+    print 'zip function'
+    for s, v in zip(vec, vec_list):
+        print s,v
+
+    print 'Reverse function'
+
+    for i in reversed(vec_list):
+        print i
+
+    print 'Sorted function'
+
+    for i in sorted(set(vec_list)):
+        print i
+
+    print 'Combining list as dictionary', dict(zip(vec, vec_list))
 if __name__ == '__main__':
     main()

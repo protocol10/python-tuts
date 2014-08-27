@@ -114,3 +114,18 @@ programming.
     1-> filter(item, sequence)
     2-> map(item, sequence)
     3-> reduce()
+
+List ->       []
+Tuple ->      []
+Dictionary -> {"KEY":"ARGS"}
+
+Dictionary is sort of associative array just like we use in php.Tuple can be used 
+as key in dictionary. It contains KEY and ARGUMENTS.
+
+To loop over two or more sequence at a time we can use zip(sequence(N+1)) function.
+To retrive the key and value of a given sequence we can use enumerate() function.
+
+To loop in reverse order for a given sequnce we can use reversed(sequnece) function.
+
+To loop over the sequence in sorted order we can use sorted() function.
+To loop over a dictionary we should use dictionary.iteritems().
